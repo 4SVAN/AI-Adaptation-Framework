@@ -32,9 +32,12 @@ cd client
 - conversion server
 A docker container with tools integrate, using flask for receiving HTTP request.
 Use convertor/rollout scripts to generate and deploy it on kubernetes!
-```cd convertor
+
+```
+cd convertor
 ./rollout <name_of_conversion_server> <version>
 A local conversion server using flask is available for testing conversion and deployment features
+```
 
 - kubernetes
 To deploy AI Adaptation service with its relevant components, use:
